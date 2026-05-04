@@ -1,11 +1,6 @@
 # Copyright (c) 2021 Polarity Works
 # SPDX-License-Identifier: MIT
 
-if BOARD_BT75
-
-config BOARD
-	default "bt75"
-
 if USB
 
 config USB_NRFX
@@ -30,5 +25,3 @@ config ZMK_BATTERY_VOLTAGE_DIVIDER
 
 config ZMK_KEYBOARD_NAME
 	default "BT75"
-
-endif # BOARD_BT75
