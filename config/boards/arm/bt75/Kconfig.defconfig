@@ -23,8 +23,8 @@ config ZMK_USB
 config ZMK_BATTERY_VOLTAGE_DIVIDER
 	default y
 
-config ZMK_KEYBOARD_NAME
-	default "BT75"
+	config ZMK_KEYBOARD_NAME
+		default "DasKlavier"
 
 config BT75_BOOTMODE
 	bool
