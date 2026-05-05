@@ -25,3 +25,9 @@ config ZMK_BATTERY_VOLTAGE_DIVIDER
 
 config ZMK_KEYBOARD_NAME
 	default "BT75"
+
+config BT75_BOOTMODE
+	bool
+	imply RETAINED_MEM
+	imply RETENTION
+	imply RETENTION_BOOT_MODE
